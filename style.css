@@ -1,0 +1,27 @@
+form{
+	width:  200px;
+	margin: 50px auto;
+	padding: 15px 20px;
+	background: #51eaea;
+	box-shadow: 10%;
+	border-radius: 15px;
+}
+label{
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+label:first-child{
+	margin-top: 0;
+}
+input[type="text"],
+input[type="password"]{
+	width: 185px;
+	background: #fffde1;
+	padding: 4px 5px;
+	border: 1px solid #ccc;
+}
+input[type="submit"]{
+	display: block;
+	margin-top: 0.5em;
+}
