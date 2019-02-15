@@ -2,9 +2,9 @@ form{
 	width:  200px;
 	margin: 50px auto;
 	padding: 15px 20px;
-	background: #51eaea;
+	background: #ffe6eb;
 	box-shadow: 10%;
-	border-radius: 15px;
+	border-radius: 12px;
 }
 label{
 	display: block;
@@ -17,11 +17,31 @@ label:first-child{
 input[type="text"],
 input[type="password"]{
 	width: 185px;
-	background: #fffde1;
+	background: #defcfc;
 	padding: 4px 5px;
 	border: 1px solid #ccc;
+	border-radius: 7px;
+	box-shadow:0 0 5px rgba(50, 200, 255, 0.5);
+    outline:none;
 }
 input[type="submit"]{
+	margin:  auto;
 	display: block;
-	margin-top: 0.5em;
+	margin-top: 1em;
+	border: none;
+	padding: 5px 15px;
+	font-weight:bold;
+	background: #a6e3e9;
+	border-radius: 7px;
+}
+body{
+	background-color:#556;
+background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+background-size:80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
